@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" droppable = false>
+        <header droppable=false>
+            <h1 droppable=false >Adicione uma nova tarefa</h1>
+            <div class="tarefas-novas" droppable=false>
+                <label for="novaTarefa" class="tarefas-novas__rotulo" droppable=false></label>
+                <input type="text" class="tarefas-novas__descricao" id="novaTarefa" placeholder="Digite aqui a sua nova tarefa" droppable=false>
+                <a href="" class="btn_adicionar" id="btnAdd" title="Adicionar tarefa" droppable=false>add</a>
+            </div>
+        </header>
+        <ul class="tarefas-lista" droppable=false>           
+        </ul>
+        <div class="espaco-em-branco" droppable=false></div>
+    </div>
+    <div class="geral" droppable=false> 
+            <button class="botao geral__excluir" droppable=false>Excluir lista de tarefas</button>
+            <button class="botao geral__checar" droppable=false>Marcar todas como concluídas</button>
+        </div>
+    <footer class="rodape" droppable=false>&copy Copyrigth 2018 JJScripts</footer>
+</body>
+    <script src="script/script.js"></script>
+</html>
